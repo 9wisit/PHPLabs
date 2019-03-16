@@ -1,3 +1,8 @@
+<?php
+$firstName = $_POST['firstName'];
+$lastName = $_POST['lastName'];
+?>
+
 <html lang="en">
 
 <head>
@@ -17,7 +22,7 @@
         <button type="submit">SHOW MY NAME</button>
     </form>
     <hr>
-    My name is: ...........
+    My name is: <?php echo "$firstName $lastName"; ?>
 </body>
 
 </html> 
