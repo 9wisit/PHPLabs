@@ -7,7 +7,6 @@ class Family
     public function getLastName() {
         return $this->lastName;
     }
-
 }
 
 class Member extends Family
@@ -32,6 +31,8 @@ class Member extends Family
 
 $family = new Family();
 echo $family->getLastName();
+
+
 echo '</br>';
 
 // แสดงชื่อ Member
